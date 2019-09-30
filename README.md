@@ -8,7 +8,8 @@ The deliverable is compound by two folders:
 
 **Description:**
 
-The backend was developed using Java 11 + Spring Boot. Maven is used as a dependency management tool. The tests are executed with JUnit 5 Jupiter engine.
+The backend application was developed using Java 11 + Spring 5 + Akka toolkit. Maven is used as a dependency management tool. The tests are executed with JUnit 5 Jupiter engine. 
+The application receives a list of files to process. A transaction is compound of a list of the file paths of the files to read. The transaction will be successfull if all the files can be opened and read properly and none of them contain the token "#1234#".
 
 Prerequisites to run the server.
 1.	Maven ^3.0 installed
@@ -39,13 +40,13 @@ It was developed a SPA in React 16.9 + Typescript 3 using Node Package Manager 8
 * Material-UI as a UI framework 
 
  Prerequisites to run the frontend.
-1.	NPM ^8.0 installed
+* NPM ^8.0 installed
 
 To run the frontend app:
 1.	Open a terminal and point to the frontend directory
 2.	Run *npm install*. This command will generate all the project dependencies in the node_modules folder.
 3.	If you want to run the app in a browser, type *npm run start* and it will be launched by webpack dev server in the url http://localhost:4200.
-4.	If you want to build the app to get the final bundles, type *npm run build* and sources will be generated under ‘dist‘ folder.
+4.	If you want to build the app for a production environment, type *npm run build* and sources will be generated under ‘dist‘ folder.
 
 To run unit tests:
 1.	Open a terminal and point to the frontend directory
