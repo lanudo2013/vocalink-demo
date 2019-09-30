@@ -1,0 +1,9 @@
+
+
+$theme-color: rgb(220, 20, 60);
+$white-color: white;
+$width-limit: 750px;
+
+@function themeColorWithOpacity($opacity: 1) {
+    @return rgba($theme-color, $opacity)
+}

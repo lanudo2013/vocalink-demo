@@ -1,0 +1,16 @@
+{
+    "app.title": "Search a delicious beer with your favourite meal!",
+    "app.mealinput.label": "Enter the food",
+    "app.mealinput.search": "Search",
+    "app.loading": "Loading",
+    "app.beerTable.header.name": "Name",
+    "app.beerTable.header.desc": "Description",
+    "app.beerTable.header.firstBrewed": "Month first brewed",
+    "app.beerTable.noresults": "No Results",
+    "app.mealinput.error.required": "Meal is required",
+    "app.mealinput.error.min": "Meal length must be greater than 2",
+
+    "app.error.generalDesc": "An error has ocurred",
+    "app.error.close": "Close",
+    "app.beersTable.caption.rowsPerPage": "Rows per page"
+}

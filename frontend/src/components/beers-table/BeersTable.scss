@@ -1,0 +1,65 @@
+@import '../../variables';
+.root {
+    width: 100%;
+    margin-top: 2.5%;
+    z-index: 10;
+    div.tableWrapper {
+        max-height: 65vh;
+        overflow: auto;
+        
+        .beers-table {
+            thead {
+                th {
+                    background-color: $theme-color;
+                    color: $white-color;
+                    padding: 9px 40px 9px 16px;
+
+                    @media screen and (max-width: $width-limit) {
+                        padding: 7px 40px 7px 16px;
+                    }
+                    
+                }
+                .row > *:nth-child(1){
+                    width: 20%;
+                }
+                .row > *:nth-child(2){
+                    width: 65%;
+                }
+                .row > *:nth-child(3){
+                    width: 15%;
+                }
+            }
+
+            tbody {
+                tr:nth-child(2n) {
+                    background-color: themeColorWithOpacity(0.2);
+                }
+                @media screen and (max-width: $width-limit) {
+                    td {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+            
+            
+            .one-row-cont {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 25vh;
+        
+                .no-results {
+                    font-size: 2rem;
+                }
+
+                @media screen and (max-width: $width-limit) {
+                    .no-results {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

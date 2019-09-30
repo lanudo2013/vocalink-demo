@@ -1,0 +1,16 @@
+{
+    "app.title": "Busca una cerveza deliciosa con tu comida favorita!",
+    "app.mealinput.label": "Ingresa la comida",
+    "app.mealinput.search": "Buscar",
+    "app.loading": "Cargando",
+    "app.beerTable.header.name": "Nombre",
+    "app.beerTable.header.desc": "Descripcion",
+    "app.beerTable.header.firstBrewed": "Primer mes elaborada",
+    "app.beerTable.noresults": "Sin resultados",
+    "app.mealinput.error.required": "Comida es requerido",
+    "app.mealinput.error.min": "La comida debe tener un largo mayor a 2",
+
+    "app.error.generalDesc": "Ha ocurrido un error inesperado",
+    "app.error.close": "Cerrar",
+    "app.beersTable.caption.rowsPerPage": "Filas por pagina"
+}
