@@ -1,6 +1,7 @@
 import { Typography, makeStyles, Button, Modal} from "@material-ui/core";
 import { WithTranslation, withTranslation } from "react-i18next";
 import React from 'react';
+import './ErrorModal.scss';
 
 interface ErrorModalProps {
     open: boolean;
